@@ -1,17 +1,8 @@
 import type { Metadata } from "next";
-import {Bebas_Neue,Poppins} from "next/font/google";
+import { Bebas_Neue, Poppins } from "next/font/google";
 
 import "./globals.css";
 
-// const geistSans = Geist({
-//   variable: "--font-geist-sans",
-//   subsets: ["latin"],
-// });
-
-// const geistMono = Geist_Mono({
-//   variable: "--font-geist-mono",
-//   subsets: ["latin"],
-// });
 
 const bebasNeue = Bebas_Neue({
   weight: "400",
@@ -45,8 +36,15 @@ export default function RootLayout({
         antialiased
       `}
     >
-      <body className="min-h-full flex flex-col">
-        {children}
+      <body className="min-h-full flex flex-col bg-[#F7EFDF]">
+        
+        
+
+        {/* PAGE CONTENT */}
+        <main className="flex-1">
+          {children}
+        </main>
+
       </body>
     </html>
   );

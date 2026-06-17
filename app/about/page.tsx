@@ -211,16 +211,12 @@ pantas untuk didengar
           />
 
           <div>
-            <h3
-              className="
-                font-poppins
-                text-4xl
-                font-bold
-                text-[#3F2925]
-              "
-            >
-              Talk to Beariel
-            </h3>
+            <Link
+          href="/"
+          className="mt-8 inline-block text-xl font-bold underline text-[#FCFCEF]"
+        >
+          Explore Beariel
+        </Link>
 
             <p
               className="
